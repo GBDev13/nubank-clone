@@ -19,7 +19,7 @@ function MobileButton({ isActive, setIsActive, onClick }) {
   return (
       <Container
         onClick={e => {
-          const rect = e.target.getBoundingClientRect();
+          const rect = (e.target as HTMLButtonElement).getBoundingClientRect();
           setCoords({ x: e.clientX - rect.left, y: e.clientY - rect.top });
           onClick && onClick(e);
           setIsActive(!isActive)
