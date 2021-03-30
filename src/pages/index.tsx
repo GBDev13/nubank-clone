@@ -109,7 +109,7 @@ export default function Home() {
           </article>
         </MobileSection>
 
-        <ImageSection background="/imagem01.webp">
+        <ImageSection background="/imagem01.webp" size={13.5}>
           <article>
             <div className="copy">
               <h1>Reinventando<br />a relação das<br />pessoas com<br />o dinheiro</h1>
@@ -121,7 +121,7 @@ export default function Home() {
           </article>
         </ImageSection>
 
-        <ImageSection background="/imagem02.webp">
+        <ImageSection background="/imagem02.webp" size={23}>
           <article>
             <div className="copy">
               <h1>NuCommunity<br /><br />A comunidade<br />oficial do Nubank</h1>
@@ -133,7 +133,7 @@ export default function Home() {
           </article>
         </ImageSection>
 
-        <ImageSection background="/imagem03.webp">
+        <ImageSection background="/imagem03.webp" size={13.5}>
           <article>
             <div className="copy">
               <h1>Um blog para você<br />repensar o seu<br />dinheiro</h1>

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 interface ImageSectionProps {
   background:string;
+  size:number;
 }
 
 export const FormSection = styled.section`
@@ -547,7 +548,7 @@ export const ImageSection = styled.section<ImageSectionProps>`
           color:var(--white);
           font-size: 1.125rem;
           display:block;
-          width:13.5rem;
+          width:${props => props.size + 'rem'};
 
           svg {
             width:16px;
